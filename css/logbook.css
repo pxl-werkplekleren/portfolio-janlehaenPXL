@@ -40,25 +40,26 @@ nav{
     align-items: center;
     gap: 4em;
 }
-main{
-    margin: 5% 20%;
-}
-#projects{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1em;
-}
-.project{
-    display: flex;
-    flex-direction: column;
-    border-radius: 50px;
-    box-shadow: 0 4px 8px;
-    padding: 1em;
-    align-items: center;
-    justify-content: center;
-    width: 15em;
-    height: 10em;
-    
-}
 
-  
+main{
+    
+    padding: 4em 4em;
+    background-color: rgb(185, 178, 178);
+    color:white;
+}
+table, th, td{
+    margin: 0% 20%;
+    border-collapse: collapse;
+    padding: 2em;
+    border: 2px solid black;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
+}

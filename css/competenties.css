@@ -40,25 +40,24 @@ nav{
     align-items: center;
     gap: 4em;
 }
-main{
-    margin: 5% 20%;
+h1{
+    text-align: center;
+    text-decoration: underline;
 }
-#projects{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1em;
+#table{
+    padding: 4em 4em;
+    background-color: rgb(185, 178, 178);
+    color:white;
 }
-.project{
-    display: flex;
-    flex-direction: column;
-    border-radius: 50px;
-    box-shadow: 0 4px 8px;
+table, th, td{
+    margin: 0% 10%;
+    border-collapse: collapse;
     padding: 1em;
-    align-items: center;
-    justify-content: center;
-    width: 15em;
-    height: 10em;
-    
+    border: 2px solid black;
 }
-
-  
+.rol{
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: rgb(150, 145, 145);
+}

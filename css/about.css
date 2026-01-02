@@ -40,3 +40,13 @@ nav{
     align-items: center;
     gap: 4em;
 }
+main{
+    padding: 4em 4em;
+    background-color: rgb(185, 178, 178);
+    color:white;
+    
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
