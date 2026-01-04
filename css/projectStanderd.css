@@ -41,9 +41,23 @@ nav{
     gap: 4em;
 }
 main{
-    margin: 10% 20%;
+    margin: 6em 30em;
 }
 
+#cv a{
+    border: 1px solid black;
+    padding: 1em;
+    background-color: lightgray;
+    border-radius: 35px;
+    }
+#cv{
+    margin: 3em 0em;
+}
+#cv :hover{
+    background-color: darkgray;
+    transition: 0.3s;
+
+}
 .arrow{
     width: 1rem;
     height: 1rem;

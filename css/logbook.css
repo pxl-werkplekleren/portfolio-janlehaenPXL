@@ -48,7 +48,7 @@ main{
     color:white;
 }
 table, th, td{
-    margin: 0% 20%;
+    margin: 0% 10%;
     border-collapse: collapse;
     padding: 2em;
     border: 2px solid black;

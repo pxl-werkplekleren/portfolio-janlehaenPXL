@@ -1,0 +1,454 @@
+:root {
+    --spacing: 4em; /* desktop */
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+    :root {
+        --spacing: 3em;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    :root {
+        --spacing: 2em;
+    }
+}
+
+.progress-bar{
+    width: 100%;
+    height: 0.5rem;
+    border-radius: 100px;
+    background-color: white;
+    margin-bottom: 0.5rem;
+    overflow: hidden;
+   }
+.progress-indicator {
+    background-color: darkslategray;
+    height: 100%;
+    width: 100%;
+}
+.progress-indicator.is-90{
+    width: 90%;
+}
+.progress-indicator.is-75{
+    width: 75%;
+}
+.progress-indicator.is-60{
+    width: 60%;
+}
+.arrow{
+    width: 1rem;
+    height: 1rem;
+    align-self: center;
+    justify-content: center;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #f1faf1;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+
+
+h1{
+    color:darkslategray;
+}
+
+h2{
+    color: darkseagreen;
+    margin-bottom: .25em;
+}
+
+hr{
+    margin-bottom: 1em;
+}
+
+main img {
+    transition: box-shadow 0.3s ease; /* vloeiende overgang */
+    border-radius: 50%;
+    width: 300px;
+    height: auto;
+    margin-right: 0.5em;
+
+}
+
+main img:hover {
+    box-shadow: 0 8px 16px rgb(211, 211, 211);
+}
+
+main {
+    margin: var(--spacing) 5%;
+    /* max-width: 90rem;   */
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkseagreen;
+    text-align: center;
+    padding: 16px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    }
+header h1{
+    color: white;
+}
+#intro{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 16px;
+    border: 1px solid darkseagreen;
+    background-color: darkseagreen;
+    border-radius: 35px;
+    color: white;
+    margin-bottom: var(--spacing);
+}
+#introtextbig{
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    font-style: italic;
+}
+#introtextsmall{
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    }
+.name{
+    margin-bottom: 0.5em;
+}
+.experiencesBox{
+    display: flex;
+    flex-direction: column;
+}
+#container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    opacity: 0.8;
+    font-size: large;
+}
+
+#middleContainer{
+    display: flex;
+    margin: 0;
+    gap: var(--spacing);
+}
+#languageTableBox{
+    border-radius: 20px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+#languagetabel{
+    border-collapse: collapse;
+    max-width: 100%;
+    /* width: 100%; */
+}
+
+#languagetabel th, tr, td{
+    text-align: center;
+    padding: 12px 15px;
+}
+
+#languagetabel tr {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.2); /* subtiele schaduw */
+}
+
+#languagetabel td {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.2); /* subtiele schaduw */
+}
+
+#languagetabel th{
+    background-color: #788c78;
+    font-size: large;
+    font-weight: bold;
+    color:White;
+}
+#languagetabel tr:nth-child(even) {
+    background-color: #b5d5b5;
+}
+#languagetabel tr:nth-child(2) td:nth-child(2) {
+    font-style: italic;
+}
+
+#languagetabel .index{
+    background-color: darkseagreen;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+#languagelist{
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    gap:0.5em;
+}
+
+.language li{
+    margin-bottom: 0.5em;
+}
+li{
+    list-style-type: none;
+                           }
+.languagelistIndex{
+    font-size: large;
+    font-weight: bold;
+    color: darkslategray;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.languagelist-item {
+    flex-wrap: wrap;
+    padding: .25em .5em;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+}
+
+.languagelist-item.is-language {
+    background-color: darkslategray;
+}
+
+/* .languagelistlanguage{
+    flex-wrap: wrap;
+    padding: .25em .5em;
+    text-align: center;
+    border: 1px solid darkslategray;
+    border-radius: 20px;
+    background-color: darkslategray;
+    color: white;
+} */
+#languageBox{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-items: start;
+}
+.languageListRegular{
+    padding: 2px;
+    text-align: center;
+    border: 1px solid darkseagreen;
+    border-radius: 20px;
+    background-color: darkseagreen;
+    color: white;
+}
+.employer{
+    font-size: large;
+    text-decoration: none;
+    background-color: darkseagreen;
+    color: whitesmoke;
+    padding: 10px;
+    border: 1px solid darkseagreen;
+    border-radius: 15px;
+}
+.employer:hover{
+    background-color: darkslategray;
+    border: 1px solid darkslategray;
+    font-size: larger;
+    color: white;
+    padding: 10px;
+}
+#workskills li{
+    margin-bottom: 1.5em;
+
+}
+.function{
+    margin-left: 1em;
+    font-weight: bold;
+    font-size: large;
+}
+.tasks{
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+.workListLine{
+    opacity: 0.2;
+    padding: 2px;
+
+}
+#interests, #Hobbys{
+    display: flex;
+    flex-direction: column;
+}
+.containerHobbyAndInterest{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1em;
+}
+
+.aboutMeBox{
+    border: 1px solid darkseagreen;
+    border-radius: 25px;
+    padding: 1em;
+    color:white;
+    background-color: darkseagreen;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.timeline {
+    border-left: 3px solid #ccc;
+    padding-left: 20px;
+    margin-bottom: 2em;
+}
+
+.timeline .item {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.timeline .item::before { /*De bolletjes*/
+    content: ""; /* pseudo‑element (Het bolletje) zichtbaar*/
+    width: 12px;
+    height: 12px;
+    background: darkseagreen;
+    border-radius: 50%;
+    position: absolute;
+    left: -27px;
+    top: 5px;
+}
+
+.timeline .year {
+    font-weight: bold;
+    color: darkslategray;
+}
+
+.timeline .content h3 {
+    margin: 0;
+}
+.aboutMeBox h2, h4{
+    color: darkslategray;
+}
+
+#soft-skills li, #hobbys li{
+    margin-bottom: 0.5em;
+}
+
+
+#interests{
+    margin-bottom: 1em;
+}
+footer{
+    background-color: darkseagreen;
+    color: white;
+    padding: 12px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/*Hierna pas de mediaquerry's toevoegen*/
+@media screen and (min-width: 992px){ /* Standaard getoont*/
+   #languagelist{
+       display: none;
+   }
+    #introtextsmall{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px){ /* Tablat grote */
+    body{
+        margin:0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    #introtextsmall{
+        display: none;
+    }
+    #languagelist{
+        display: none;
+    }
+    #middleContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+    }
+    #intro{
+        display: flex;
+        flex-direction: column;
+        font-size: large;
+        font-style: italic;
+
+    }
+    #talentabel tr, td{
+        border: none;
+        text-align: center;
+        padding: 12px 15px;
+        box-shadow: none;
+    }
+}
+@media screen and (max-width: 576px) { /* gsm grote */
+    body{
+        max-width: 100%;
+        margin:0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header, footer{
+        max-width: 100%;
+    }
+    img {
+        align-items: center;
+        max-width: 100%;
+        height: auto;
+    }
+
+    #middleContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+    }
+    #intro{
+            display: flex;
+            flex-direction: column;
+            font-size: medium;
+            font-style: italic;
+            text-align: center;
+
+        }
+
+    #workskills {
+        text-align: center;
+    }
+    #languageTableBox{
+        display: none;
+    }
+    #introtextbig{
+        display: none;
+    }
+    .function{
+        list-style: none;
+        font-weight: bold;
+        font-size: large;
+    }
+    .name{
+        text-align: center;
+    }
+    #education{
+        text-align: center;
+    }
+
+    }
+
