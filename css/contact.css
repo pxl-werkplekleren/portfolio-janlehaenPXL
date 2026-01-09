@@ -41,6 +41,10 @@ nav{
     gap: 4em;
 }
 main{
+    background-color: rgb(185, 178, 178);
+    padding: 5em;
+}
+.contact{
     margin: 6em 30em;
     padding:2em;
     background-color: lightgray;

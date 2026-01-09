@@ -80,3 +80,34 @@ footer div{
     text-decoration: none;
     color:black;
 }
+
+.X-factor h1{
+    text-align: center;
+    text-decoration: underline;
+    margin: 2em;
+}
+#X-factor{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.X-factor-parts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2em;
+    margin: 0% 5%;
+
+}
+.part{
+    border: 1px solid black;
+    padding: 1em;
+    background-color: lightgray;
+    border-radius: 35px;
+    width: 15em;
+}
+.part h3{
+    text-align: center;
+}
+
