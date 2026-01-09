@@ -81,6 +81,25 @@ h1{
     gap: 1em;
     font-size: large;
 }
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-button {
+    display: inline-block;      /* zorgt dat de knop enkel zo groot is als de tekst */
+    padding: 8px 12px;          /* beetje ruimte rond de tekst */
+    background-color: #f2f2f2;  /* lichte achtergrond */
+    border-radius: 6px;         /* afgeronde hoeken */
+    text-decoration: none;      /* geen underline */
+    color: black;             /* behoudt je tekstkleur */
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
 
+.footer-button:hover {
+    background-color: #e0e0e0;  /* hoverkleur */
+    transform: translateY(-2px); /* klein hover-effect */
+    cursor: pointer;
+}
 
 
