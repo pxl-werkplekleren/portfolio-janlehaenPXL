@@ -2,11 +2,10 @@ a{
     text-decoration: none;
     color: black;
 }
+
 body{
     margin: 0;
     padding: 0;
-    background-image: url("Assets/");
-    background-size:auto;
     font-family:Arial, Helvetica, sans-serif;
 }
 
@@ -22,6 +21,11 @@ nav{
     font-size:large;
     font-weight: bolder;
   
+}
+#contacts a:hover{
+    color:black;
+    transition: 0.3s;
+
 }
 #contacts{
     padding: 0.5em;
@@ -40,6 +44,12 @@ nav{
     align-items: center;
     gap: 4em;
 }
+#links a:hover{
+    color:rgb(255, 0, 0);
+    text-decoration: double underline;
+    transition: 0.3s;
+}
+
 h1{
     text-align: center;
     text-decoration: underline;
