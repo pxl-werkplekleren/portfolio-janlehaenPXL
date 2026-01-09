@@ -61,3 +61,30 @@ table, th, td{
     font-size: larger;
     background-color: rgb(150, 145, 145);
 }
+#status-rol{
+    margin: 0% 10% ;
+}
+
+#status-rol h2{
+    text-decoration: underline;
+}
+#status-rol h3{
+    font-size: large;
+    font-weight: bolder;
+    background-color: rgb(150, 145, 145);
+    color:white;
+    padding: 0.5em;
+    text-align: center;
+}
+#example{
+    margin: 5% 10% ;
+}
+#example h2{
+    font-size: large;
+    font-weight: bolder;
+    background-color: rgb(150, 145, 145);
+    color:white;
+    padding: 0.5em;
+    text-align: center;
+}
+
