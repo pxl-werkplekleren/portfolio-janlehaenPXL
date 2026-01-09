@@ -22,19 +22,25 @@ nav{
     font-weight: bolder;
   
 }
-#contacts a:hover{
-    color:black;
-    transition: 0.3s;
-
+#buttons {
+    display: flex;
+    gap: 15px;
 }
-#contacts{
-    padding: 0.5em;
-    border: 1px solid red;
+
+.btn {
+    display: inline-block;
+    padding: 10px 18px;
     background-color: red;
-    width: 4em;
-    border-radius: 50px;
+    color: white;
     text-decoration: none;
-    color:white;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #460707;
+    transform: translateY(-2px);
 }
 #links{
     display: flex;
@@ -118,6 +124,27 @@ img{
     font-style: italic;
     font-weight: bold;
     font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+#buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #460707;
+    transform: translateY(-2px);
 }
 
 

@@ -22,22 +22,28 @@ nav{
     font-weight: bolder;
   
 }
+#buttons {
+    display: flex;
+    gap: 15px;
+}
 
-#contacts{
-    padding: 0.5em;
-    border: 1px solid red;
+.btn {
+    display: inline-block;
+    padding: 10px 18px;
     background-color: red;
-    width: 4em;
-    border-radius: 50px;
+    color: white;
     text-decoration: none;
-    color:white;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background-color 0.2s ease, transform 0.2s ease;
 }
-#contacts :hover{
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    border: 1px solid rgb(0, 0, 0);
-    background-color: rgb(0, 0, 0);
 
+.btn:hover {
+    background-color: #460707;
+    transform: translateY(-2px);
 }
+
+
 #links{
     display: flex;
     position: relative;
